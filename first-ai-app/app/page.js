@@ -15,11 +15,6 @@ export default function Home() {
     setResult(data.result);
   };
 
-  console.log(
-    result,
-    "result>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",
-  );
-
   return (
     <main className="px-5 py-4">
       <h1 className="text-3xl font-bold text-center py-2.5">
